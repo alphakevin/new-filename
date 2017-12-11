@@ -1,0 +1,30 @@
+{
+  "name": "new-filename",
+  "version": "1.0.0",
+  "description": "Generating a new filename like 'basename (1).ext' like normal application",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphakevin/new-filename.git"
+  },
+  "keywords": [
+    "filename",
+    "unique",
+    "new",
+    "sequence"
+  ],
+  "author": "alphakevin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphakevin/new-filename/issues"
+  },
+  "homepage": "https://github.com/alphakevin/new-filename#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
