@@ -1,23 +1,31 @@
 # new-filename
 
-Generating a new filename like 'basename (1).ext'
+Generating a new filename like 'basename (1).ext' without conflicting with existing ones.
 
 ## Install
 
 ```bash
 npm install new-filename
+# or
+yarn add new-filename
 ```
 
 ## Usage
 
 ```typescript
-getNewFilename(list: array[string]), name: string): string
+/**
+ * Generating a new filename to avoid names in the list by adding sequenced number
+ * @param list - Filenames already in use
+ * @param name - New filenames about to use
+ * @returns Generated new filename
+ */
+getNewFilename(list: string[]]), name: string): string
 ```
 
 ### Example
 
 ```javascript
-const getNewFilename = require('new-filename');
+import getNewFilename from 'new-filename';
 
 const newName = getNewFilename([
   'untitled.txt',
