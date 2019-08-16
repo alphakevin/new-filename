@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "mocha -r ts-node/register index.test.ts",
-    "build": "tsc",
+    "build": "tsc index.ts",
     "prepublishOnly": "yarn build"
   },
   "repository": {
